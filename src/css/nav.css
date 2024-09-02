@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white; /* Customize text color */
+    padding: 10px; /* Adjust padding for spacing */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
