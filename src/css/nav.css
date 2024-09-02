@@ -3,8 +3,8 @@ nav {
     width: 100%;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 0;
+    position: sticky;
+    top: 10px;
     left: 0;
     color: white; /* Customize text color */
     padding: 10px; /* Adjust padding for spacing */
@@ -14,7 +14,7 @@ nav {
     font-family: 'nunito';
     background: #000319;
     border: 1px solid rgb(51 53 71);
-    padding: 8px 40px;
+    /* padding: 8px 40px; */
     border-radius: 40px;
 }
 
@@ -27,7 +27,8 @@ nav {
 }
 
 .nav-items ul li {
-    padding: 10px 15px; /* Add spacing around the list items */
+    /* font-size: 14px; */
+    padding: 8px 15px; /* Add spacing around the list items */
     cursor: pointer; /* Show a pointer cursor on hover */
 }
 
