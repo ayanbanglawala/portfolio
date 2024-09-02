@@ -1,7 +1,7 @@
 import '../css/home.css';
 const Home = () => {
   return (
-    <div className="bgImg">
+    <div className="bgImg col-lg-12 col-8">
         <span className='nunito'>DYNAMIC DESIGN OF PORTFOLIO</span>
         <span className='mainContent'>Welcome to My <span className='purple'>Portfolio</span></span>
         <span className='mainContent'>My Name is _____</span>
