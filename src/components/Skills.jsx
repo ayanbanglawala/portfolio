@@ -1,4 +1,4 @@
-import ReactLogo from '../assets/reactLogo.png';
+import ReactLogo from '../assets/React.png';
 import NodeLogo from  '../assets/nodeLogo.png';
 import Mongo from '../assets/Mongo.png';
 import Express from '../assets/express.png';
