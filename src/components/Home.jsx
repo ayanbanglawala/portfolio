@@ -11,7 +11,7 @@ const Home = () => {
                         <span className='purple font-bold'>Portfolio</span>
                     </div>
 
-                    <span className='mainContent text-[40px] sm:text-[60px] text-center'>I am <span className='purple'>Ayan Banglawala</span></span>
+                    <span className='mainContent text-[40px] sm:text-[60px] text-center'>I am <span className='purple font-bold'>Ayan Banglawala</span></span>
 
                     <div className='footerInfo flex flex-col justify-center items-center text-center text-[20px] sm:text-[25px]'>
                         <span className='purple font-bold'>MERN stack Developer</span>
