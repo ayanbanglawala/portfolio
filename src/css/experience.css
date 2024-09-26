@@ -1,0 +1,34 @@
+.experience-card {
+    position: relative; /* Ensure the card can have absolute children */
+    background: rgba(1, 5, 38, 0.5); /* Semi-transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border with transparency */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    backdrop-filter: blur(10px); /* Blur effect for the background */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.experience-card:hover {
+    transform: rotateY(7deg) rotateX(7deg); /* Slight 3D rotation effect */
+    /* box-shadow: 0 10px 30px #950ae066; Increase shadow for depth */
+    border-color: rgba(255, 255, 255, 0.5); /* Change border color on hover */
+}
+
+/* Optional: Add an inner glow effect for more depth */
+.experience-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px; /* Match the border radius of the card */
+    background: #09135c3e; /* Light inner glow */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for glow */
+}
+
+.experience-card:hover::after {
+    opacity: 1; /* Show the glow on hover */
+}

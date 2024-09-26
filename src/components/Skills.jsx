@@ -18,7 +18,7 @@ const Skills = () => {
                 <Card imgName={Express} shadowColor ='shadow-[#E8C900]' text="Express Js"/>
                 <Card imgName={ReactLogo} shadowColor ='shadow-[#00c9ee]'text="React Js"/>
                 <Card imgName={NodeLogo} shadowColor ='shadow-[#529F41]'  text="Node Js"/>
-                <Card imgName={Tailwind} shadowColor ='shadow-[#00c9ee]'  text="Tailwind CSS"/>
+                <Card imgName={Tailwind} shadowColor ='shadow-[#00c9ee]'  text="Tailwind"/>
                 <Card imgName={Bootstrap} shadowColor ='shadow-[#8A13FD]'  text="Bootsrap"/>
                 <Card imgName={php} shadowColor ='shadow-[#364580]' padding="p-0" text="PHP"/>
                 <Card imgName={unity} shadowColor ='shadow-[#fff]' text="Unity 3D"/>
