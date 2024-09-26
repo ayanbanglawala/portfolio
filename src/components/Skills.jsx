@@ -11,7 +11,7 @@ import unity from '../images/unity.png';
 const Skills = () => {
     return (
         <div className="container px-0 lg:px-[240px] mx-auto p-4 ">
-            <div className="flex justify-center"><h1 className='text-3xl lg:text-5xl nunito my-8 font-bold '>SKILL</h1></div>
+            <div className="flex justify-center"><h1 className='text-3xl lg:text-5xl nunito my-8 font-bold '>SKILLS</h1></div>
             <div className="flex flex-wrap -mx-4 justify-center">
                 
                 <Card imgName={Mongo} shadowColor ='shadow-[#4D8E46]' text="MongoDB"/>
