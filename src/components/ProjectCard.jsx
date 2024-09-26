@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
 
   return (
     <div className="w-full sm:w-1/2 lg:w-4/12 px-4 mb-4 mx-0">
-      <div className={`w-full bgImage shadow-[0_0px_15px_rgba(0,0,0,0.15)] ${props.shadowColor} bg-[#04071D] border border-[#1E2034] rounded-lg shadow-lg p-6 flex flex-col justify-center items-center relative overflow-hidden`}>
+      <div className={`w-full bgImage shadow-[0_0px_15px_rgba(0,0,0,0.15)] hover:shadow-[0_0px_0px_rgba(0,0,0,0)] transition-all duration-300 cursor-pointer ${props.shadowColor} bg-[#04071D] border border-[#1E2034] rounded-lg shadow-lg p-6 flex flex-col justify-center items-center relative overflow-hidden`}>
         <div className="absolute inset-0 bg-cover bg-center opacity-30" style={{ backgroundImage: "url('/path-to-your-image.jpg')" }}></div>
         <h2 className="text-2xl font-bold mb-4 text-white relative z-10">{props.projectName}</h2>
         
