@@ -1,12 +1,12 @@
-import ReactLogo from '../assets/React.png';
-import NodeLogo from  '../assets/nodeLogo.png';
-import Mongo from '../assets/Mongo.png';
-import Express from '../assets/express.png';
+import ReactLogo from '../images/React.png';
+import NodeLogo from  '../images/nodeLogo.png';
+import Mongo from '../images/Mongo.png';
+import Express from '../images/express.png';
 import Card from './Card';
-import Tailwind from  '../assets/tailwind.png';
-import Bootstrap from '../assets/bootstrap.png';
-import php from '../assets/php.png';
-import unity from '../assets/unity.png';
+import Tailwind from  '../images/tailwind.png';
+import Bootstrap from '../images/bootstrap.png';
+import php from '../images/php.png';
+import unity from '../images/unity.png';
 
 const Skills = () => {
     return (
