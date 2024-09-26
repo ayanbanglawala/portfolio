@@ -1,3 +1,6 @@
 .bgColor{
     background: #000319;
 }
+*{
+    scroll-behavior: smooth;
+}

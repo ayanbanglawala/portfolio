@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import './css/main.css';
 
 const App = () => {
+ 
   return (
     <div className="bgColor">
       <Nav/>

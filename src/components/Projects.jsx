@@ -1,9 +1,8 @@
-import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     return (
-        <div className="container px-0 lg:px-[240px] mx-auto p-4" id='skills'>
+        <section className="container px-0 lg:px-[240px] mx-auto p-4" id='projects'>
             <div className="flex justify-center">
                 <h1 className='text-3xl lg:text-5xl nunito my-8 font-bold'>PROJECTS</h1>
             </div>
@@ -12,7 +11,7 @@ const Projects = () => {
                 <ProjectCard />
                 <ProjectCard />
             </div>
-        </div>
+        </section>
     );
 };
 

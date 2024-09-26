@@ -4,7 +4,7 @@ import '../index.css';
 const Nav = () => {
   return (
     <nav>
-      <div className="nav-items text-[12px] px-[20px] py-[8px] lg:px-[40px] lg:text-[14px]">
+      <div className="nav-items text-[12px] px-[15px] py-[8px] lg:px-[40px] lg:text-[14px]">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#skills">Skills</a></li>

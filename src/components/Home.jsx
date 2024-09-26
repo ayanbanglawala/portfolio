@@ -3,9 +3,9 @@ import '../css/home.css';
 const Home = () => {
     return (
         <>
-            <div className="bgImg  h-[86vh] lg:h-[90vh]" id='home'>
+            <section className="bgImg  h-[90vh] lg:h-[90vh]" id='home'>
                 <div className='flex flex-col justify-center items-center mb-[190px]'>
-                    <span className='nunito text-[13px] pt-10'>PORTFOLIO OF PROJECTS AND SKILLS</span>
+                    <span className='nunito text-[13px] pt-28'>PORTFOLIO OF PROJECTS AND SKILLS</span>
                     <div className='mainContent flex flex-col justify-center items-center text-[45px] sm:text-[60px] '>
                         <span>Welcome to My </span>
                         <span className='purple font-bold'>Portfolio</span>
@@ -21,7 +21,7 @@ const Home = () => {
                     </div>
 
                 </div>
-            </div>
+            </section>
 
         </>
     )
