@@ -26,9 +26,13 @@
     font-weight: 500;
     margin: 0px 20px;
 }
-.purple{
-    color: #CBACF9;
-}
+.purple {
+    background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
 span{
     color: white;
 }

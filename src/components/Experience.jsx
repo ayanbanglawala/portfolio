@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard';
 const Experience = () => {
   return (
     <div id='experience'>
-    <div className="flex justify-center"><h1 className='text-3xl lg:text-5xl nunito my-8 font-bold '>Experience</h1></div>
+    <div className="flex justify-center"><h1 className='text-3xl lg:text-5xl nunito my-8 font-bold purple'>EXPERIENCE</h1></div>
     <div className="w-full min-h-screen flex items-center justify-center p-10">
       <div className="max-w-4xl w-full bg-[#04071D] border border-[#1E2034] shadow-[0_3px_15px_rgba(0,0,0,0.25)] rounded-lg p-6">
         <h2 className="text-3xl font-bold text-white mb-4">My Professional Experience</h2>
