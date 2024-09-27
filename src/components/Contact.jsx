@@ -16,7 +16,7 @@ const Contact = () => {
     e.preventDefault(); // Prevent default form submission
 
     try {
-      const response = await fetch('http://127.0.0.1:3000/message', {
+      const response = await fetch('https://server-apis-3aoh.onrender.com/message', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
