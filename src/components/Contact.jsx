@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa'; // Import icons
-import '../css/contact.css'
+import '../css/contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -45,12 +45,21 @@ const Contact = () => {
     }
   };
 
+  // Use Effect to disable scroll
+  useEffect(() => {
+    if (showPopup) {
+      document.body.style.overflow = 'hidden'; // Disable scroll
+    } else {
+      document.body.style.overflow = 'auto'; // Enable scroll
+    }
+  }, [showPopup]);
+
   return (
     <div id="contact" className="min-h-screen flex flex-col md:flex-row bg-[#04071D] relative">
       {/* Loader */}
       {loading && (
         <div className="absolute inset-0 flex justify-center items-center bg-[#04071D] bg-opacity-75">
-          <span class="loader"></span>
+          <span className="loader"></span>
         </div>
       )}
 
@@ -128,7 +137,7 @@ const Contact = () => {
 
       {/* Success Popup */}
       {showPopup && (
-        <div className="absolute inset-0 flex justify-center items-center bg-[#04071D] bg-opacity-75">
+        <div className="absolute stickOK inset-0 flex justify-center items-center bg-[#04071D] bg-opacity-75">
           <div className="bg-[#050820] border-2 border-[#1E2034] h-[160px] rounded-lg shadow-lg p-6 w-80 text-center">
             <h3 className="text-lg font-semibold mb-4">Message sent successfully!</h3>
             <button

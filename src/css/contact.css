@@ -7,9 +7,10 @@
     position: relative;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
-  }
-  .loader::after {
-    content: '';  
+}
+
+.loader::after {
+    content: '';
     box-sizing: border-box;
     position: absolute;
     left: 0;
@@ -19,13 +20,16 @@
     height: 16px;
     transform: translate(-50%, 50%);
     border-radius: 50%;
-  }
-      
-  @keyframes rotation {
+}
+
+
+
+@keyframes rotation {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  } 
+}
