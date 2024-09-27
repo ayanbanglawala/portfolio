@@ -2,7 +2,10 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const connectDB = require("./db/dbConnect");
-const Message = require("./db/message");  // Import the correct model name
+const Message = require("./db/message");  // Import the correct model name\
+const cors = require('cors');
+app.use(cors()); // Use CORS middleware
+
 
 connectDB();
 app.use(express.json());

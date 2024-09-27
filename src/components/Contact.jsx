@@ -12,10 +12,28 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Handle form submission logic (e.g., send data to an API)
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    try {
+      const response = await fetch('http://127.0.0.1:3000/message', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData), // Pass the formData object correctly in the body
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Response from server:", data);
+        alert("Message sent successfully!"); // Display a success message
+      } else {
+        console.error("Error: Something went wrong.");
+      }
+    } catch (err) {
+      console.error("Request failed:", err);
+    }
   };
 
   return (
