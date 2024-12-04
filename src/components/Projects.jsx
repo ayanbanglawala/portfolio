@@ -10,6 +10,14 @@ const Projects = () => {
       </div>
       <div className="flex flex-wrap justify-center">
         <ProjectCard
+          projectName="Wrist Wonders"
+          description="Wrist Wonders is a sleek and dynamic e-commerce application dedicated to selling premium wristwatches. The platform provides a user-friendly interface, secure payment options, and a personalized shopping experience. With features like product search, filtering, and real-time inventory updates, Wrist Wonders ensures a seamless shopping experience for its customers."
+          techUsed="React, Node.js, Express, MongoDB, Tailwind CSS"
+          shadowColor="shadow-[#FF4500]"
+          link="https://wristwonders-shop.onrender.com/"
+        />
+
+        <ProjectCard
           projectName="MyChat App"
           description="MyChat is a real-time chat application designed to facilitate seamless communication between users. With features like instant messaging, user authentication, and an intuitive interface, MyChat ensures a smooth user experience on both desktop and mobile devices. The app utilizes Socket.io for real-time updates, allowing users to send and receive messages instantly."
           techUsed="React, Node.js, Express, Socket.io, MongoDB"
